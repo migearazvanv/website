@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
+import Header from './components/Header';
+import {Container} from '../src/theme/grid';
 
-import Header from './components/Header'
+
+
 class App extends Component {
   render() {
     return (

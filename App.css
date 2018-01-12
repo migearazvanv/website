@@ -1,7 +1,9 @@
+
 body{
 	border:10px;
 	padding-left:10px;
 	margin:10px;
+	background-color: light-grey;
 }
 .page-header{
 	padding-bottom: 10px;
