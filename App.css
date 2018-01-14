@@ -3,7 +3,7 @@ body{
 	border:10px;
 	padding-left:10px;
 	margin:10px;
-	background-color: light-grey;
+	background-color: beige;
 }
 .page-header{
 	padding-bottom: 10px;
@@ -15,4 +15,11 @@ body{
 }
 .contact{
 	padding-top:10px;
+}
+.col-md-4{
+	text-align: center;
+	text-shadow: 1px 1px #1aa3f0;
+}
+.about{
+	font-size: 25px;
 }
