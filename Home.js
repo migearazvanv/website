@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import '../App.css'
 import {Container} from '../theme/grid';
-//import styled from 'styled-components';
 import { 
 	Image,
 	//RevealP
@@ -14,7 +13,6 @@ export default class Home extends Component {
 				<h3>Despre mine</h3>
 					<Image src={require('../Home/cap.jpg')} alt="cap"/>
 					<p className="about">
-					
 						Primul contact pe care l-am avut cu programarea 
 						a fost în clasa a IX-a, fiind la profil mate-info.
 						De atunci a inceput și pasiunea mea față de 
@@ -38,12 +36,12 @@ export default class Home extends Component {
 						</p>
 						<p>Am început să fac un portofolio website
 						cu jQuery, însă am abandonat și acum lucrez la el
-						cu ReactJS. În viitor vreau să mai lucrez la design
+						cu ReactJS. În viitor vreau să îmbunătățesc design-ul
 						și să conectez o bază de date, prin intermediul
 						căreia să primesc feedback-uri de la cei care îl
 						accesează, iar apoi să îl hostez.</p>
 					</p>
-			</Container>	
+			</Container>
 		);
 	}
 }

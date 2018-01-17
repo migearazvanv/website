@@ -8,10 +8,6 @@ export const Image = styled('img')`
 	height:10vh;
 	background-image: url('${require('../Home/vava-munte.jpg')}');
 `;*/
-export const ToolbarImage = styled.div`
-	height:10vh;
-	background-image: url('${require('../Home/toolbar.jpg')}');
-`;
 
 export const RevealP = styled.p`
   position: relative;

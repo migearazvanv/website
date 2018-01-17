@@ -5,8 +5,7 @@ import './theme/globalStyle';
 import {
   BrowserRouter as Router,
   Route,
-} from 'react-router-dom'
-
+} from 'react-router-dom';
 import Home from './Home/Home'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
@@ -14,7 +13,7 @@ import Projects from './components/Projects'
 ReactDOM.render(
 	<Router>
 		<div>
-			<Route path="/" component={App}/>
+			<Route path="/" component={App} />
 			<Route exact path="/" component={Home}/>
 			<Route path="/projects" component={Projects}/>
 			<Route path="/contact" component={Contact}/>
@@ -22,4 +21,4 @@ ReactDOM.render(
 	</Router>
 	,
 	document.getElementById('root')
-	);
+);

@@ -1,11 +1,12 @@
-import { injectGlobal } from 'styled-components';
+
+import styled from 'styled-components';
 
 // eslint-disable
-injectGlobal`
+export const injectGlobal = styled.div`
 	@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 	body {
 		font-family: Playfair Display, monospace;
-		font-size: 30px;
+		font-size: 100px;
 	}
 `
